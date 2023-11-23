@@ -2,7 +2,7 @@
 Description=InverterMQTT
 
 [Service]
-ExecStart=/usr/bin/python3 /usr/InverterMQTT/inverterMQTT.py
+ExecStart=/usr/InverterMQTT/.venv/bin/python3 /usr/InverterMQTT/inverterMQTT.py
 WorkingDirectory=/usr/InverterMQTT/
 Restart=always
 RestartSec=10
